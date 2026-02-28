@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Lighter background color for better readability */
+    color: #333;
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Increased margin for better spacing */
+    max-width: 40%; /* Adjusted max-width for a larger image display */
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 15px; /* Increased padding for better spacing */
+    background-color: #495057; /* Darker footer color for contrast */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+header {
+    text-align: center;
+    padding: 25px; /* Increased padding for more emphasis */
+    background-color: #04d64a; /* Updated to match the form button color */
+    color: white;
+}
+
+nav {
+    background-color: #495057; /* Consistent with footer color */
+    color: #fff;
+    padding: 15px 0; /* Increased padding for better spacing */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px; /* Increased margin for better spacing */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+main {
+    padding: 80px; /* Reduced padding to fit better with the layout */
+    text-align: center;
+    background-color: #fff;
+    max-width: 900px;
+    margin: 60px auto; /* Increased margin for better spacing */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form {
+    max-width: 600px; /* Increased width for better user experience */
+    margin: 0 auto;
+    background: #e9ecef; /* Updated background to match the body background */
+    padding: 40px; /* Increased padding for more space */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 12px; /* Increased margin for better spacing */
+    font-weight: bold;
+    color: #555;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 14px; /* Slightly increased padding for better comfort */
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    border: 1px solid #ccc; /* Adjusted border color */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    background: #007bff; /* Consistent with header color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
